@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="logs">
+				<Prp name="key" type="S" value="{5655BE83-9E8F-45BB-8B2F-0BB9ADDD1BC1}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables">
+				<Node name="datav3">
+					<Node name="var0">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="ClientName"/>
+					</Node>
+					<Node name="var1">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="510041005F00540065007300740031003000320034005F003200300031003600"/>
+						</Node>
+						<Prp name="name" type="S" value="CampaignName"/>
+					</Node>
+					<Node name="var10">
+						<Prp name="name" type="S" value="TblColumnID"/>
+					</Node>
+					<Node name="var11">
+						<Prp name="name" type="S" value="ColumnIndex"/>
+					</Node>
+					<Node name="var12">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4200750064006700650074004E006F00740065007300"/>
+						</Node>
+						<Prp name="name" type="S" value="RFPBudgetNotes"/>
+					</Node>
+					<Node name="var13">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="540061007200670065007400410075006400690065006E0063006500"/>
+						</Node>
+						<Prp name="name" type="S" value="RFPTargetAudience"/>
+					</Node>
+					<Node name="var14">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="5200650073007400720069006300740069006F006E007300"/>
+						</Node>
+						<Prp name="name" type="S" value="RFP_RESTRICTIONS"/>
+					</Node>
+					<Node name="var15">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="5300750062006D0069007300730069006F006E0049006E0073007400720075006300740069006F006E007300"/>
+						</Node>
+						<Prp name="name" type="S" value="RFPSubmissionInstructions"/>
+					</Node>
+					<Node name="var16">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4300720065006100740069007600650041006E006400420069006C006C0069006E00670052006500710075006900720065006D0065006E0074007300"/>
+						</Node>
+						<Prp name="name" type="S" value="RFPCreativeAndBillingRequirements"/>
+					</Node>
+					<Node name="var17">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4F0074006800650072004E006F00740065007300"/>
+						</Node>
+						<Prp name="name" type="S" value="RFPOtherNotes"/>
+					</Node>
+					<Node name="var18">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="4C00650074002700730047006F004100640061007A007A006C0065002100"/>
+						</Node>
+						<Prp name="name" type="S" value="Password_Seller"/>
+					</Node>
+					<Node name="var19">
+						<Prp name="name" type="S" value="Count1"/>
+					</Node>
+					<Node name="var2">
+						<Node name="value">
+							<Prp name="floatvalue" type="D" value="2000"/>
+						</Node>
+						<Prp name="name" type="S" value="BudgetValue"/>
+					</Node>
+					<Node name="var20">
+						<Node name="value">
+							<Prp name="intvalue" type="I" value="0"/>
+						</Node>
+						<Prp name="name" type="S" value="CompareStartDate"/>
+					</Node>
+					<Node name="var21">
+						<Node name="value">
+							<Prp name="intvalue" type="I" value="0"/>
+						</Node>
+						<Prp name="name" type="S" value="CompareEndDate"/>
+					</Node>
+					<Node name="var3">
+						<Node name="value">
+							<Prp name="floatvalue" type="D" value="835"/>
+						</Node>
+						<Prp name="name" type="S" value="BudgetValueInDollar"/>
+					</Node>
+					<Node name="var4">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="39002F0031002F003100360020002D00200039002F00330030002F0031003600"/>
+						</Node>
+						<Prp name="name" type="S" value="FlightDates"/>
+					</Node>
+					<Node name="var5">
+						<Node name="value">
+							<Prp name="intvalue" type="I" value="6"/>
+						</Node>
+						<Prp name="name" type="S" value="NumberToSplit"/>
+					</Node>
+					<Node name="var6">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="39002F0031002F003200300031003600"/>
+						</Node>
+						<Prp name="name" type="S" value="StartDate"/>
+					</Node>
+					<Node name="var7">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="39002F00330030002F003200300031003600"/>
+						</Node>
+						<Prp name="name" type="S" value="EndDate"/>
+					</Node>
+					<Node name="var8">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="310031002F00300031002F003200300031003600"/>
+						</Node>
+						<Prp name="name" type="S" value="CampaignStartDate"/>
+					</Node>
+					<Node name="var9">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="310031002F00330030002F003200300031003600"/>
+						</Node>
+						<Prp name="name" type="S" value="CampaignEndDate"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="3"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
+	</Node>
+</Nodes>
